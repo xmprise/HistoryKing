@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Historyking" Class="CardDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=210.118.69.65,8000;Initial Catalog=Historyking;Persist Security Info=True;User ID=jung" SettingsObjectName="HistoryKing_client.Properties.Settings" SettingsPropertyName="HistorykingConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="SingleGame.EnemyCard" Member="EnemyCard">
+    <Type Name="EnemyCard">
+      <Column Name="EnemyCardID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="EnemyCardName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="EnemyCardAttackPoint" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="EnemyCardHealthPoint" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SkillID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="SingleGame.EnemyHero" Member="EnemyHero">
+    <Type Name="EnemyHero">
+      <Column Name="EnemyHeroID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="EnemyHeroName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="EnemyHeroAttackPoint" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="EnemyHeroHealthPoint" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="EnemyHeroInformation" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="SkillID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="SingleGame.GoldCard" Member="GoldCard">
+    <Type Name="GoldCard">
+      <Column Name="GoldCardID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="GoldCardNmae" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="GoldCardQuiz" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="Mem.MemberCardDeck" Member="MemberCardDeck">
+    <Type Name="MemberCardDeck">
+      <Column Name="CardDeckID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MemberName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CardNumberID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="CardNumber_MemberCardDeck" Member="CardNumber" ThisKey="CardNumberID" OtherKey="CardNumberID" Type="CardNumber" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="Game.MagicCard" Member="MagicCard">
+    <Type Name="MagicCard">
+      <Column Name="MagicCardID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MagicCardName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CardNumberID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MagicCardInformation" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="CardNumber_MagicCard" Member="CardNumber" ThisKey="CardNumberID" OtherKey="CardNumberID" Type="CardNumber" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="Game.HeroCard" Member="HeroCard">
+    <Type Name="HeroCard">
+      <Column Name="HeroCardID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="HeroCardName" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="HeroCardAttackPoint" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="HeroCardHealthPoint" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SkillID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CardNumberID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="HeroCardInformation" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="CardNumber_HeroCard" Member="CardNumber" ThisKey="CardNumberID" OtherKey="CardNumberID" Type="CardNumber" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="Game.CardNumber" Member="CardNumber">
+    <Type Name="CardNumber">
+      <Column Name="CardNumberID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="CardNumber_MemberCardDeck" Member="MemberCardDeck" ThisKey="CardNumberID" OtherKey="CardNumberID" Type="MemberCardDeck" />
+      <Association Name="CardNumber_MagicCard" Member="MagicCard" ThisKey="CardNumberID" OtherKey="CardNumberID" Type="MagicCard" />
+      <Association Name="CardNumber_HeroCard" Member="HeroCard" ThisKey="CardNumberID" OtherKey="CardNumberID" Type="HeroCard" />
+      <Association Name="CardNumber_GameDeck" Member="GameDeck" ThisKey="CardNumberID" OtherKey="CardNumberID" Type="GameDeck" />
+    </Type>
+  </Table>
+  <Table Name="Game.HeroCardSkill" Member="HeroCardSkill">
+    <Type Name="HeroCardSkill">
+      <Column Name="SkillID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="HeroCardName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="SkillName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="SkillPoint" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="Game.GameDeck" Member="GameDeck">
+    <Type Name="GameDeck">
+      <Column Name="GameDeckID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MemberName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CardNumberID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="CardNumber_GameDeck" Member="CardNumber" ThisKey="CardNumberID" OtherKey="CardNumberID" Type="CardNumber" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="SingleGame.EnemyCardSkill" Member="EnemyCardSkill">
+    <Type Name="EnemyCardSkill">
+      <Column Name="SkillID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="EnemyCardName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="SkillName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="SkillPoint" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Function Name="dbo.Game_CardDeck" Method="Game_CardDeck">
+    <Parameter Name="MemberName" Parameter="memberName" Type="System.String" DbType="VarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

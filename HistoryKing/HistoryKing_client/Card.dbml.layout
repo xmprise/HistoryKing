@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 15.25, 9.625" name="Card">
+  <DataContextMoniker Name="/CardDataContext" />
+  <nestedChildShapes>
+    <classShape Id="c10e8bf7-a64b-4bc4-b3be-c2feb229da7a" absoluteBounds="6.5, 0.625, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/CardDataContext/EnemyCard" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5de2fcb0-3767-4a07-bd33-ce64e4657ec9" absoluteBounds="6.5150000000000006, 1.085, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="53506ac0-8951-43ff-9e1e-71690e4c7146" absoluteBounds="13, 2.375, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/CardDataContext/EnemyHero" />
+      <nestedChildShapes>
+        <elementListCompartment Id="113cb137-b2cb-4e9a-a623-c0cc6d776d17" absoluteBounds="13.015, 2.835, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4f61a85c-d443-458f-bcd1-55e8827fa275" absoluteBounds="6.875, 4.625, 2, 1.3862939453124987">
+      <DataClassMoniker Name="/CardDataContext/GoldCard" />
+      <nestedChildShapes>
+        <elementListCompartment Id="db605a00-0f9c-4113-9cec-ef88bd20b672" absoluteBounds="6.8900000000000006, 5.0850000000000009, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1348dd6f-5eaa-479b-b0fa-50d961284b8d" absoluteBounds="3.5, 1.125, 2, 1.3862939453125">
+      <DataClassMoniker Name="/CardDataContext/MemberCardDeck" />
+      <nestedChildShapes>
+        <elementListCompartment Id="70be5623-3acb-4664-94a1-ebadc7fc6aa5" absoluteBounds="3.515, 1.585, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5b550a57-4f7e-41f8-bd6c-3ed0e25faf2a" absoluteBounds="3.5, 3.25, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/CardDataContext/MagicCard" />
+      <nestedChildShapes>
+        <elementListCompartment Id="db5add34-b9d3-4cf9-bf84-34379b2947a2" absoluteBounds="3.515, 3.71, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5451a530-6c0a-4fea-a19d-df8d167b80a6" absoluteBounds="3.5, 5.625, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/CardDataContext/HeroCard" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5b6e1654-3efb-46f3-acb4-927141a6462b" absoluteBounds="3.515, 6.085, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="23205ce7-c431-4a75-9fc3-f667ae3386b5" absoluteBounds="0.75, 4, 2, 1.0016910807291666">
+      <DataClassMoniker Name="/CardDataContext/CardNumber" />
+      <nestedChildShapes>
+        <elementListCompartment Id="346abc4a-6d80-4ac6-be92-27b9cb19ecd5" absoluteBounds="0.765, 4.46, 1.9700000000000002, 0.44169108072916669" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ad7b48e4-3b89-497f-9052-ff1f1ad74051" absoluteBounds="6.75, 7.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/CardDataContext/HeroCardSkill" />
+      <nestedChildShapes>
+        <elementListCompartment Id="70f4943c-ec0f-4222-8442-78b679b048ad" absoluteBounds="6.765, 8.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.48437375 : 4); (1.48437375 : 1.81814697265625); (3.5 : 1.81814697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CardDataContext/CardNumber/CardNumber_MemberCardDeck" />
+      <nodes>
+        <classShapeMoniker Id="23205ce7-c431-4a75-9fc3-f667ae3386b5" />
+        <classShapeMoniker Id="1348dd6f-5eaa-479b-b0fa-50d961284b8d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 4.41429768880208); (3.5 : 4.41429768880208)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/CardDataContext/CardNumber/CardNumber_MagicCard" />
+      <nodes>
+        <classShapeMoniker Id="23205ce7-c431-4a75-9fc3-f667ae3386b5" />
+        <classShapeMoniker Id="5b550a57-4f7e-41f8-bd6c-3ed0e25faf2a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.75 : 5.00169108072917); (1.75 : 6.70274983723958); (3.5 : 6.70274983723958)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/CardDataContext/CardNumber/CardNumber_HeroCard" />
+      <nodes>
+        <classShapeMoniker Id="23205ce7-c431-4a75-9fc3-f667ae3386b5" />
+        <classShapeMoniker Id="5451a530-6c0a-4fea-a19d-df8d167b80a6" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="1ee6d198-37fb-4731-bfe5-b25dbfd9f0c4" absoluteBounds="6.375, 2.75, 2, 1.3862939453125">
+      <DataClassMoniker Name="/CardDataContext/GameDeck" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5b3379d2-3797-4bf7-aeb9-9b93bb615ede" absoluteBounds="6.39, 3.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.2812525 : 4); (2.2812525 : 2.96875); (6.375 : 2.96875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/CardDataContext/CardNumber/CardNumber_GameDeck" />
+      <nodes>
+        <classShapeMoniker Id="23205ce7-c431-4a75-9fc3-f667ae3386b5" />
+        <classShapeMoniker Id="1ee6d198-37fb-4731-bfe5-b25dbfd9f0c4" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="3f3ad339-fe89-4c8c-a852-3936d8990d70" absoluteBounds="6.875, 6.375, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/CardDataContext/EnemyCardSkill" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1e8548d2-29fa-47f2-835f-3ade0b1d3b15" absoluteBounds="6.8900000000000006, 6.835, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

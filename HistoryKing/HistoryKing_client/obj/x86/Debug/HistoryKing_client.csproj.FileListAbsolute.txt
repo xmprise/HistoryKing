@@ -1,0 +1,475 @@
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\bin\Debug\HistoryKing_client.exe.config
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\obj\x86\Debug\CardControl.baml
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\obj\x86\Debug\CardDeck.baml
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\obj\x86\Debug\CheckFace.baml
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\obj\x86\Debug\CreatedCharactor.baml
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\obj\x86\Debug\MainMenu.baml
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\obj\x86\Debug\MainWindow.baml
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\obj\x86\Debug\Menu.baml
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\obj\x86\Debug\NewUser.baml
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\obj\x86\Debug\SamGookStage1.baml
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\obj\x86\Debug\SamGookStageSelect.baml
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\obj\x86\Debug\StageSelect.baml
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\obj\x86\Debug\TestWindow.baml
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\obj\x86\Debug\Webcam.baml
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\obj\x86\Debug\CardControl.g.cs
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\obj\x86\Debug\CardDeck.g.cs
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\obj\x86\Debug\CheckFace.g.cs
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\obj\x86\Debug\CreatedCharactor.g.cs
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\obj\x86\Debug\MainMenu.g.cs
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\obj\x86\Debug\MainWindow.g.cs
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\obj\x86\Debug\Menu.g.cs
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\obj\x86\Debug\NewUser.g.cs
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\obj\x86\Debug\SamGookStage1.g.cs
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\obj\x86\Debug\SamGookStageSelect.g.cs
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\obj\x86\Debug\StageSelect.g.cs
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\obj\x86\Debug\TestWindow.g.cs
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\obj\x86\Debug\Webcam.g.cs
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\obj\x86\Debug\App.g.cs
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\obj\x86\Debug\HistoryKing_client_MarkupCompile.cache
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\obj\x86\Debug\HistoryKing_client.g.resources
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\obj\x86\Debug\HistoryKing_client.Properties.Resources.resources
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\bin\Debug\HistoryKing_client.exe
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\bin\Debug\HistoryKing_client.pdb
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\bin\Debug\Microsoft.Expression.Effects.dll
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\bin\Debug\Microsoft.Expression.Interactions.dll
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\bin\Debug\System.Windows.Interactivity.dll
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\bin\Debug\Microsoft.Expression.Effects.xml
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\bin\Debug\Microsoft.Expression.Interactions.xml
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\bin\Debug\System.Windows.Interactivity.xml
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\bin\Debug\de\System.Windows.Interactivity.resources.dll
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\bin\Debug\en\System.Windows.Interactivity.resources.dll
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\bin\Debug\es\System.Windows.Interactivity.resources.dll
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\bin\Debug\it\System.Windows.Interactivity.resources.dll
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\obj\x86\Debug\HistoryKing_client.exe
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\obj\x86\Debug\HistoryKing_client.pdb
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\bin\Debug\Newtonsoft.Json.dll
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\bin\Debug\SuperSocket.ClientEngine.dll
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\bin\Debug\WebSocket4Net.dll
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\bin\Debug\WebSocket4Net.pdb
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\obj\x86\Debug\WaittingRoom.baml
+D:\HistoryKing_Client\HistoryKing_client\HistoryKing_client\obj\x86\Debug\WaittingRoom.g.cs
+C:\HistoryKing\HistoryKing_client\bin\Debug\HistoryKing_client.exe.config
+C:\HistoryKing\HistoryKing_client\bin\Debug\스테이지1.png
+C:\HistoryKing\HistoryKing_client\bin\Debug\스테이지2-1.png
+C:\HistoryKing\HistoryKing_client\bin\Debug\스테이지3-2.png
+C:\HistoryKing\HistoryKing_client\bin\Debug\스테이지4-1.png
+C:\HistoryKing\HistoryKing_client\bin\Debug\HistoryKing_client.exe
+C:\HistoryKing\HistoryKing_client\bin\Debug\HistoryKing_client.pdb
+C:\HistoryKing\HistoryKing_client\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\HistoryKing\HistoryKing_client\bin\Debug\Microsoft.Expression.Effects.dll
+C:\HistoryKing\HistoryKing_client\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\HistoryKing\HistoryKing_client\bin\Debug\System.Windows.Interactivity.dll
+C:\HistoryKing\HistoryKing_client\bin\Debug\Microsoft.Expression.Drawing.xml
+C:\HistoryKing\HistoryKing_client\bin\Debug\Microsoft.Expression.Effects.xml
+C:\HistoryKing\HistoryKing_client\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\HistoryKing\HistoryKing_client\bin\Debug\System.Windows.Interactivity.xml
+C:\HistoryKing\HistoryKing_client\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\HistoryKing\HistoryKing_client\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\HistoryKing\HistoryKing_client\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\HistoryKing\HistoryKing_client\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\HistoryKing\HistoryKing_client\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\HistoryKing\HistoryKing_client\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\HistoryKing\HistoryKing_client\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\HistoryKing\HistoryKing_client\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\HistoryKing\HistoryKing_client\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\HistoryKing\HistoryKing_client\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\HistoryKing\HistoryKing_client\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\HistoryKing\HistoryKing_client\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\HistoryKing\HistoryKing_client\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\HistoryKing\HistoryKing_client\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\HistoryKing\HistoryKing_client\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\HistoryKing\HistoryKing_client\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\HistoryKing\HistoryKing_client\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\HistoryKing\HistoryKing_client\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\CardControl.baml
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\CardDeck.baml
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\CheckFace.baml
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\ChosenStageSelect.baml
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\CreatedCharactor.baml
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\DarkageStageSelect.baml
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\GoruelStageSelect.baml
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\MainMenu.baml
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\MainWindow.baml
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\Menu.baml
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\MyMessageBox.baml
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\NewUser.baml
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\ReadyRoom.baml
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\SamGookStage1.baml
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\SamGookStageSelect.baml
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\StageSelect.baml
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\StoryView\Stage1\StageAnimation1-1.baml
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\Stratege.baml
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\Test.baml
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\TestWindow.baml
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\Webcam.baml
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\CardControl.g.cs
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\CardDeck.g.cs
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\CheckFace.g.cs
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\ChosenStageSelect.g.cs
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\CreatedCharactor.g.cs
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\DarkageStageSelect.g.cs
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\GoruelStageSelect.g.cs
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\MainMenu.g.cs
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\MainWindow.g.cs
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\Menu.g.cs
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\MyMessageBox.g.cs
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\NewUser.g.cs
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\ReadyRoom.g.cs
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\SamGookStage1.g.cs
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\SamGookStageSelect.g.cs
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\StageSelect.g.cs
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\StoryView\Stage1\StageAnimation1-1.g.cs
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\Stratege.g.cs
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\Test.g.cs
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\TestWindow.g.cs
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\TutorialScreen.g.cs
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\WaittingRoom.g.cs
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\Webcam.g.cs
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\App.g.cs
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\HistoryKing_client_MarkupCompile.cache
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\HistoryKing_client_MarkupCompile.lref
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\TutorialScreen.baml
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\WaittingRoom.baml
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\HistoryKing_client.g.resources
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\HistoryKing_client.Properties.Resources.resources
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\HistoryKing_client.exe
+C:\HistoryKing\HistoryKing_client\obj\x86\Debug\HistoryKing_client.pdb
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\bin\Debug\스테이지1.png
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\bin\Debug\스테이지2-1.png
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\bin\Debug\스테이지3-2.png
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\bin\Debug\스테이지4-1.png
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\bin\Debug\HistoryKing_client.exe.config
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\bin\Debug\HistoryKing_client.exe
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\bin\Debug\HistoryKing_client.pdb
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\bin\Debug\Microsoft.Expression.Effects.dll
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\bin\Debug\Microsoft.Expression.Drawing.xml
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\bin\Debug\Microsoft.Expression.Effects.xml
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\CardControl.baml
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\CardDeck.baml
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\CheckFace.baml
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\ChosenStageSelect.baml
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\CreatedCharactor.baml
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\DarkageStageSelect.baml
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\GoruelStageSelect.baml
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\MainMenu.baml
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\MainWindow.baml
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\Menu.baml
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\MyMessageBox.baml
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\NewUser.baml
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\ReadyRoom.baml
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\SamGookStage1.baml
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\SamGookStageSelect.baml
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\StageSelect.baml
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\StoryView\Stage1\StageAnimation1-1.baml
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\Stratege.baml
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\Test.baml
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\TestWindow.baml
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\Webcam.baml
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\CardControl.g.cs
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\CardDeck.g.cs
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\CheckFace.g.cs
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\ChosenStageSelect.g.cs
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\CreatedCharactor.g.cs
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\DarkageStageSelect.g.cs
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\GoruelStageSelect.g.cs
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\MainMenu.g.cs
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\MainWindow.g.cs
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\Menu.g.cs
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\MyMessageBox.g.cs
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\NewUser.g.cs
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\ReadyRoom.g.cs
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\SamGookStage1.g.cs
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\SamGookStageSelect.g.cs
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\StageSelect.g.cs
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\StoryView\Stage1\StageAnimation1-1.g.cs
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\Stratege.g.cs
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\Test.g.cs
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\TestWindow.g.cs
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\TutorialScreen.g.cs
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\WaittingRoom.g.cs
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\Webcam.g.cs
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\App.g.cs
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\HistoryKing_client_MarkupCompile.cache
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\HistoryKing_client_MarkupCompile.lref
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\TutorialScreen.baml
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\WaittingRoom.baml
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\HistoryKing_client.g.resources
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\HistoryKing_client.Properties.Resources.resources
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\HistoryKing_client.exe
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\HistoryKing_client.pdb
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\bin\Debug\Resource\메인.png
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\bin\Debug\Resource\메인화면.png
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\bin\Debug\메인화면.png
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\MiniGame.baml
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\MiniGame.g.cs
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\SetCardDeck.baml
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\SetCardDeck.g.cs
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\PlayNetworkGame.baml
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\PlayNetworkGame.g.cs
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\bin\Debug\Resource\네트워크배경.png
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\bin\Debug\네트워크배경.png
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\bin\Debug\StoryView\Stage1\1-1.png
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\bin\Debug\카드덱.png
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\bin\Debug\대기방_배경.png
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\Charactor_Infor.baml
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\obj\x86\Debug\Charactor_Infor.g.cs
+C:\Users\hayoung\Desktop\HistoryKing\HistoryKing_client\bin\Debug\log4net.dll
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\bin\Debug\HistoryKing_client.exe.config
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\HistoryKing_client.exe
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\HistoryKing_client.pdb
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\bin\Debug\Resource\네트워크배경.png
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\bin\Debug\Resource\메인.png
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\bin\Debug\Resource\메인화면.png
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\bin\Debug\StoryView\Stage1\1-1.png
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\bin\Debug\네트워크배경.png
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\bin\Debug\대기방_배경.png
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\bin\Debug\메인화면.png
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\bin\Debug\스테이지1.png
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\bin\Debug\스테이지2-1.png
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\bin\Debug\스테이지3-2.png
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\bin\Debug\스테이지4-1.png
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\bin\Debug\카드덱.png
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\bin\Debug\HistoryKing_client.exe
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\bin\Debug\HistoryKing_client.pdb
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\bin\Debug\Microsoft.Expression.Effects.dll
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\bin\Debug\log4net.dll
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\bin\Debug\Microsoft.Expression.Drawing.xml
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\bin\Debug\Microsoft.Expression.Effects.xml
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\CardControl.baml
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\CardDeck.baml
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\Charactor_Infor.baml
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\CheckFace.baml
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\ChosenStageSelect.baml
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\CreatedCharactor.baml
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\DarkageStageSelect.baml
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\GoruelStageSelect.baml
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\MainMenu.baml
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\MainWindow.baml
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\Menu.baml
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\MiniGame.baml
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\MyMessageBox.baml
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\NewUser.baml
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\PlayNetworkGame.baml
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\ReadyRoom.baml
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\SamGookStage1.baml
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\SamGookStageSelect.baml
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\SetCardDeck.baml
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\StageSelect.baml
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\StoryView\Stage1\StageAnimation1-1.baml
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\Stratege.baml
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\Test.baml
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\TestWindow.baml
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\Webcam.baml
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\CardControl.g.cs
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\CardDeck.g.cs
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\Charactor_Infor.g.cs
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\CheckFace.g.cs
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\ChosenStageSelect.g.cs
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\CreatedCharactor.g.cs
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\DarkageStageSelect.g.cs
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\GoruelStageSelect.g.cs
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\MainMenu.g.cs
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\MainWindow.g.cs
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\Menu.g.cs
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\MiniGame.g.cs
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\MyMessageBox.g.cs
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\NewUser.g.cs
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\PlayNetworkGame.g.cs
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\ReadyRoom.g.cs
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\SamGookStage1.g.cs
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\SamGookStageSelect.g.cs
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\SetCardDeck.g.cs
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\StageSelect.g.cs
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\StoryView\Stage1\StageAnimation1-1.g.cs
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\Stratege.g.cs
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\Test.g.cs
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\TestWindow.g.cs
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\TutorialScreen.g.cs
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\WaittingRoom.g.cs
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\Webcam.g.cs
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\App.g.cs
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\HistoryKing_client_MarkupCompile.cache
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\HistoryKing_client_MarkupCompile.lref
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\TutorialScreen.baml
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\WaittingRoom.baml
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\HistoryKing_client.g.resources
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\HistoryKing_client.Properties.Resources.resources
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\woojin\Desktop\왜가리\HistoryKing_client\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\bin\Debug\HistoryKing_client.exe.config
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\HistoryKing_client.exe
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\HistoryKing_client.pdb
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\bin\Debug\Resource\네트워크배경.png
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\bin\Debug\Resource\메인.png
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\bin\Debug\Resource\메인화면.png
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\bin\Debug\StoryView\Stage1\1-1.png
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\bin\Debug\네트워크배경.png
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\bin\Debug\대기방_배경.png
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\bin\Debug\메인화면.png
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\bin\Debug\스테이지1.png
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\bin\Debug\스테이지2-1.png
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\bin\Debug\스테이지3-2.png
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\bin\Debug\스테이지4-1.png
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\bin\Debug\카드덱.png
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\bin\Debug\HistoryKing_client.exe
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\bin\Debug\HistoryKing_client.pdb
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\bin\Debug\Microsoft.Expression.Drawing.dll
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\bin\Debug\Microsoft.Expression.Effects.dll
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\bin\Debug\Microsoft.Expression.Interactions.dll
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\bin\Debug\System.Windows.Interactivity.dll
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\bin\Debug\log4net.dll
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\bin\Debug\Microsoft.Expression.Drawing.xml
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\bin\Debug\Microsoft.Expression.Effects.xml
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\bin\Debug\Microsoft.Expression.Interactions.xml
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\bin\Debug\System.Windows.Interactivity.xml
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\bin\Debug\de\System.Windows.Interactivity.resources.dll
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\bin\Debug\en\System.Windows.Interactivity.resources.dll
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\bin\Debug\es\System.Windows.Interactivity.resources.dll
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\bin\Debug\it\System.Windows.Interactivity.resources.dll
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\CardControl.baml
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\CardDeck.baml
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\Charactor_Infor.baml
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\CheckFace.baml
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\ChosenStageSelect.baml
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\CreatedCharactor.baml
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\DarkageStageSelect.baml
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\GoruelStageSelect.baml
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\MainMenu.baml
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\MainWindow.baml
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\Menu.baml
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\MiniGame.baml
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\MyMessageBox.baml
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\NewUser.baml
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\PlayNetworkGame.baml
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\ReadyRoom.baml
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\SamGookStage1.baml
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\SamGookStageSelect.baml
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\SetCardDeck.baml
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\StageSelect.baml
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\StoryView\Stage1\StageAnimation1-1.baml
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\Stratege.baml
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\Test.baml
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\TestWindow.baml
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\Webcam.baml
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\CardControl.g.cs
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\CardDeck.g.cs
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\Charactor_Infor.g.cs
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\CheckFace.g.cs
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\ChosenStageSelect.g.cs
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\CreatedCharactor.g.cs
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\DarkageStageSelect.g.cs
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\GoruelStageSelect.g.cs
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\MainMenu.g.cs
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\MainWindow.g.cs
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\Menu.g.cs
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\MiniGame.g.cs
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\MyMessageBox.g.cs
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\NewUser.g.cs
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\PlayNetworkGame.g.cs
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\ReadyRoom.g.cs
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\SamGookStage1.g.cs
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\SamGookStageSelect.g.cs
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\SetCardDeck.g.cs
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\StageSelect.g.cs
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\StoryView\Stage1\StageAnimation1-1.g.cs
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\Stratege.g.cs
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\Test.g.cs
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\TestWindow.g.cs
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\TutorialScreen.g.cs
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\WaittingRoom.g.cs
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\Webcam.g.cs
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\App.g.cs
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\HistoryKing_client_MarkupCompile.cache
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\HistoryKing_client_MarkupCompile.lref
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\TutorialScreen.baml
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\WaittingRoom.baml
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\HistoryKing_client.g.resources
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\HistoryKing_client.Properties.Resources.resources
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\멥버십 자료\단기과제\히스토리킹\HistoryKing\HistoryKing_client\obj\x86\Debug\GenerateResource.write.1.tlog

@@ -1,0 +1,8 @@
+﻿<Window x:Class="HistoryKing_client.Webcam"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Webcam" Height="300" Width="300" Name="webcam_Form">
+    <Grid Height="234" Width="242">
+        
+    </Grid>
+</Window>

@@ -1,0 +1,65 @@
+C:\Users\Jung\AppData\Local\Temporary Projects\HistoryKing_AI_Test\bin\Debug\HistoryKing_AI_Test.exe
+C:\Users\Jung\AppData\Local\Temporary Projects\HistoryKing_AI_Test\bin\Debug\HistoryKing_AI_Test.pdb
+C:\Users\Jung\AppData\Local\Temporary Projects\HistoryKing_AI_Test\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Jung\AppData\Local\Temporary Projects\HistoryKing_AI_Test\obj\x86\Debug\HistoryKing_AI_Test.Form1.resources
+C:\Users\Jung\AppData\Local\Temporary Projects\HistoryKing_AI_Test\obj\x86\Debug\HistoryKing_AI_Test.Properties.Resources.resources
+C:\Users\Jung\AppData\Local\Temporary Projects\HistoryKing_AI_Test\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Jung\AppData\Local\Temporary Projects\HistoryKing_AI_Test\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Jung\AppData\Local\Temporary Projects\HistoryKing_AI_Test\obj\x86\Debug\HistoryKing_AI_Test.exe
+C:\Users\Jung\AppData\Local\Temporary Projects\HistoryKing_AI_Test\obj\x86\Debug\HistoryKing_AI_Test.pdb
+C:\Users\Jung\documents\visual studio 2010\Projects\HistoryKing_AI_Test\HistoryKing_AI_Test\obj\x86\Debug\HistoryKing_AI_Test.exe
+C:\Users\Jung\documents\visual studio 2010\Projects\HistoryKing_AI_Test\HistoryKing_AI_Test\obj\x86\Debug\HistoryKing_AI_Test.pdb
+C:\Users\Jung\documents\visual studio 2010\Projects\HistoryKing_AI_Test\HistoryKing_AI_Test\bin\Debug\HistoryKing_AI_Test.exe
+C:\Users\Jung\documents\visual studio 2010\Projects\HistoryKing_AI_Test\HistoryKing_AI_Test\bin\Debug\HistoryKing_AI_Test.pdb
+C:\Users\Jung\documents\visual studio 2010\Projects\HistoryKing_AI_Test\HistoryKing_AI_Test\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Jung\documents\visual studio 2010\Projects\HistoryKing_AI_Test\HistoryKing_AI_Test\obj\x86\Debug\HistoryKing_AI_Test.Form1.resources
+C:\Users\Jung\documents\visual studio 2010\Projects\HistoryKing_AI_Test\HistoryKing_AI_Test\obj\x86\Debug\HistoryKing_AI_Test.Properties.Resources.resources
+C:\Users\Jung\documents\visual studio 2010\Projects\HistoryKing_AI_Test\HistoryKing_AI_Test\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Jung\documents\visual studio 2010\Projects\HistoryKing_AI_Test\HistoryKing_AI_Test\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\HistoryKing_AI_Test\HistoryKing_AI_Test\obj\x86\Debug\HistoryKing_AI_Test.exe
+C:\HistoryKing_AI_Test\HistoryKing_AI_Test\obj\x86\Debug\HistoryKing_AI_Test.pdb
+C:\HistoryKing_AI_Test\HistoryKing_AI_Test\bin\Debug\HistoryKing_AI_Test.exe
+C:\HistoryKing_AI_Test\HistoryKing_AI_Test\bin\Debug\HistoryKing_AI_Test.pdb
+C:\HistoryKing_AI_Test\HistoryKing_AI_Test\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\HistoryKing_AI_Test\HistoryKing_AI_Test\obj\x86\Debug\HistoryKing_AI_Test.Form1.resources
+C:\HistoryKing_AI_Test\HistoryKing_AI_Test\obj\x86\Debug\HistoryKing_AI_Test.Properties.Resources.resources
+C:\HistoryKing_AI_Test\HistoryKing_AI_Test\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\HistoryKing_AI_Test\HistoryKing_AI_Test\obj\x86\Debug\GenerateResource.write.1.tlog
+I:\HistoryKing_AI_Test\HistoryKing_AI_Test\obj\x86\Debug\HistoryKing_AI_Test.exe
+I:\HistoryKing_AI_Test\HistoryKing_AI_Test\obj\x86\Debug\HistoryKing_AI_Test.pdb
+I:\HistoryKing_AI_Test\HistoryKing_AI_Test\bin\Debug\HistoryKing_AI_Test.exe
+I:\HistoryKing_AI_Test\HistoryKing_AI_Test\bin\Debug\HistoryKing_AI_Test.pdb
+I:\HistoryKing_AI_Test\HistoryKing_AI_Test\obj\x86\Debug\ResolveAssemblyReference.cache
+I:\HistoryKing_AI_Test\HistoryKing_AI_Test\obj\x86\Debug\HistoryKing_AI_Test.Form1.resources
+I:\HistoryKing_AI_Test\HistoryKing_AI_Test\obj\x86\Debug\HistoryKing_AI_Test.Properties.Resources.resources
+I:\HistoryKing_AI_Test\HistoryKing_AI_Test\obj\x86\Debug\GenerateResource.read.1.tlog
+I:\HistoryKing_AI_Test\HistoryKing_AI_Test\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Jung\Desktop\HistoryKing_AI_Test\HistoryKing_AI_Test\obj\x86\Debug\HistoryKing_AI_Test.exe
+C:\Users\Jung\Desktop\HistoryKing_AI_Test\HistoryKing_AI_Test\obj\x86\Debug\HistoryKing_AI_Test.pdb
+C:\Users\Jung\Desktop\HistoryKing_AI_Test\HistoryKing_AI_Test\bin\Debug\HistoryKing_AI_Test.exe
+C:\Users\Jung\Desktop\HistoryKing_AI_Test\HistoryKing_AI_Test\bin\Debug\HistoryKing_AI_Test.pdb
+C:\Users\Jung\Desktop\HistoryKing_AI_Test\HistoryKing_AI_Test\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Jung\Desktop\HistoryKing_AI_Test\HistoryKing_AI_Test\obj\x86\Debug\HistoryKing_AI_Test.Form1.resources
+C:\Users\Jung\Desktop\HistoryKing_AI_Test\HistoryKing_AI_Test\obj\x86\Debug\HistoryKing_AI_Test.Properties.Resources.resources
+C:\Users\Jung\Desktop\HistoryKing_AI_Test\HistoryKing_AI_Test\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Jung\Desktop\HistoryKing_AI_Test\HistoryKing_AI_Test\obj\x86\Debug\GenerateResource.write.1.tlog
+K:\HistoryKing_AI_Test\HistoryKing_AI_Test\obj\x86\Debug\HistoryKing_AI_Test.exe
+K:\HistoryKing_AI_Test\HistoryKing_AI_Test\obj\x86\Debug\HistoryKing_AI_Test.pdb
+K:\HistoryKing_AI_Test\HistoryKing_AI_Test\bin\Debug\HistoryKing_AI_Test.exe
+K:\HistoryKing_AI_Test\HistoryKing_AI_Test\bin\Debug\HistoryKing_AI_Test.pdb
+K:\HistoryKing_AI_Test\HistoryKing_AI_Test\obj\x86\Debug\ResolveAssemblyReference.cache
+K:\HistoryKing_AI_Test\HistoryKing_AI_Test\obj\x86\Debug\HistoryKing_AI_Test.Form1.resources
+K:\HistoryKing_AI_Test\HistoryKing_AI_Test\obj\x86\Debug\HistoryKing_AI_Test.Properties.Resources.resources
+K:\HistoryKing_AI_Test\HistoryKing_AI_Test\obj\x86\Debug\GenerateResource.read.1.tlog
+K:\HistoryKing_AI_Test\HistoryKing_AI_Test\obj\x86\Debug\GenerateResource.write.1.tlog
+J:\HistoryKing_AI_Test\HistoryKing_AI_Test\obj\x86\Debug\HistoryKing_AI_Test.exe
+J:\HistoryKing_AI_Test\HistoryKing_AI_Test\obj\x86\Debug\HistoryKing_AI_Test.pdb
+J:\HistoryKing_AI_Test\HistoryKing_AI_Test\bin\Debug\HistoryKing_AI_Test.exe
+J:\HistoryKing_AI_Test\HistoryKing_AI_Test\bin\Debug\HistoryKing_AI_Test.pdb
+J:\HistoryKing_AI_Test\HistoryKing_AI_Test\obj\x86\Debug\ResolveAssemblyReference.cache
+J:\HistoryKing_AI_Test\HistoryKing_AI_Test\obj\x86\Debug\HistoryKing_AI_Test.Form1.resources
+J:\HistoryKing_AI_Test\HistoryKing_AI_Test\obj\x86\Debug\HistoryKing_AI_Test.Properties.Resources.resources
+J:\HistoryKing_AI_Test\HistoryKing_AI_Test\obj\x86\Debug\GenerateResource.read.1.tlog
+J:\HistoryKing_AI_Test\HistoryKing_AI_Test\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Jung\Desktop\단기과제\HistoryKing_AI_Test\HistoryKing_AI_Test\obj\x86\Debug\HistoryKing_AI_Test.exe
+C:\Users\Jung\Desktop\단기과제\HistoryKing_AI_Test\HistoryKing_AI_Test\obj\x86\Debug\HistoryKing_AI_Test.pdb

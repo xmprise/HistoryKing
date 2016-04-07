@@ -1,0 +1,92 @@
+﻿<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:Microsoft_Windows_Themes="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="HistoryKing_client.MyMessageBox"
+        Title="MyMessageBox" Height="200" Width="400" WindowStyle="None" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Loaded="Window_Loaded">
+	<Window.Resources>
+		<Style x:Key="ButtonFocusVisual">
+			<Setter Property="Control.Template">
+				<Setter.Value>
+					<ControlTemplate>
+						<Rectangle Margin="2" SnapsToDevicePixels="true" Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" StrokeThickness="1" StrokeDashArray="1 2"/>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<LinearGradientBrush x:Key="ButtonNormalBackground" EndPoint="0,1" StartPoint="0,0">
+			<GradientStop Color="#F3F3F3" Offset="0"/>
+			<GradientStop Color="#EBEBEB" Offset="0.5"/>
+			<GradientStop Color="#DDDDDD" Offset="0.5"/>
+			<GradientStop Color="#CDCDCD" Offset="1"/>
+		</LinearGradientBrush>
+		<SolidColorBrush x:Key="ButtonNormalBorder" Color="#FF707070"/>
+		<Style x:Key="ButtonStyle1" TargetType="{x:Type Button}">
+			<Setter Property="FocusVisualStyle" Value="{StaticResource ButtonFocusVisual}"/>
+			<Setter Property="Background" Value="{StaticResource ButtonNormalBackground}"/>
+			<Setter Property="BorderBrush" Value="{StaticResource ButtonNormalBorder}"/>
+			<Setter Property="BorderThickness" Value="1"/>
+			<Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+			<Setter Property="HorizontalContentAlignment" Value="Center"/>
+			<Setter Property="VerticalContentAlignment" Value="Center"/>
+			<Setter Property="Padding" Value="1"/>
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid Margin="0,-12,-28,0">
+							<Rectangle Fill="#FFF4F4F5" Margin="-5,4,33,0" Stroke="#FF818181" StrokeThickness="3" RadiusX="20" RadiusY="20"/>
+							<Rectangle x:Name="rectangle" Fill="#FF46B248" Margin="-0.414,11.538,38.35,7.538" RadiusY="20" RadiusX="20" Stroke="#FF818181" StrokeThickness="3"/>
+							<Rectangle x:Name="rectangle1" Fill="#FF36FB3A" Margin="1.879,13.8,41.407,17.338" RadiusY="20" RadiusX="20" Stroke="#FF16E9DB" StrokeThickness="0"/>
+							<Label Content="확인" Margin="32,16.8,52,5" FontSize="16" FontFamily="HY엽서B"/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsMouseOver" Value="True">
+								<Setter Property="Fill" TargetName="rectangle" Value="#FF00FF05"/>
+								<Setter Property="Fill" TargetName="rectangle1" Value="#FFB1FB36"/>
+							</Trigger>
+							<Trigger Property="IsKeyboardFocused" Value="true"/>
+							<Trigger Property="ToggleButton.IsChecked" Value="true"/>
+							<Trigger Property="IsEnabled" Value="false">
+								<Setter Property="Foreground" Value="#ADADAD"/>
+							</Trigger>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Style x:Key="ButtonStyle2" TargetType="{x:Type Button}">
+			<Setter Property="FocusVisualStyle" Value="{StaticResource ButtonFocusVisual}"/>
+			<Setter Property="Background" Value="{StaticResource ButtonNormalBackground}"/>
+			<Setter Property="BorderBrush" Value="{StaticResource ButtonNormalBorder}"/>
+			<Setter Property="BorderThickness" Value="1"/>
+			<Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+			<Setter Property="HorizontalContentAlignment" Value="Center"/>
+			<Setter Property="VerticalContentAlignment" Value="Center"/>
+			<Setter Property="Padding" Value="1"/>
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid Margin="-80,-26,0,-3" HorizontalAlignment="Left" Width="110">
+							<Rectangle Fill="#FFE8E8EF" Margin="5,1.778,12,5.222" Stroke="#FF7C7C7C" StrokeThickness="2" RadiusX="20" RadiusY="20" HorizontalAlignment="Stretch" Width="Auto" Height="Auto" VerticalAlignment="Stretch"/>
+							<Rectangle x:Name="rectangle" Fill="#FF06B5FF" Margin="9.646,6.445,16.646,9.37" RadiusY="20" RadiusX="20" Stroke="#FF7C7C7C" StrokeThickness="2" HorizontalAlignment="Stretch" Height="Auto" VerticalAlignment="Stretch" Width="Auto"/>
+							<Rectangle x:Name="rectangle1" Fill="#FF06D7FF" Margin="12.059,8,19.059,19.222" RadiusY="20" RadiusX="20" Stroke="#FF7C7C7C" StrokeThickness="0" Width="Auto" Height="Auto" VerticalAlignment="Stretch"/>
+							<Label Content="확인" Margin="34,12.67,34.416,10.37" d:LayoutOverrides="Width, Height" FontFamily="맑은" FontSize="13.333"/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsMouseOver" Value="True">
+								<Setter Property="Fill" TargetName="rectangle" Value="#FF0665FF"/>
+								<Setter Property="Fill" TargetName="rectangle1" Value="#FF069EFF"/>
+							</Trigger>
+							<Trigger Property="IsKeyboardFocused" Value="true"/>
+							<Trigger Property="ToggleButton.IsChecked" Value="true"/>
+							<Trigger Property="IsEnabled" Value="false">
+								<Setter Property="Foreground" Value="#ADADAD"/>
+							</Trigger>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+	</Window.Resources>
+    <Grid>
+        <Image Source="다이얼로그.png" Stretch="Fill" ImageFailed="Image_ImageFailed" />
+        <Button Content="취소" Margin="0,170,-37,0" x:Name="button1_Copy" Click="button1_Click" IsDefault="True" Style="{DynamicResource ButtonStyle2}" Height="23" VerticalAlignment="Top" HorizontalAlignment="Right" Width="75" />
+        <TextBlock Height="68" HorizontalAlignment="Left" Margin="172,23,0,0" Name="textBlock1" Text="TextBlock" VerticalAlignment="Top" Width="179" TextWrapping="Wrap" />
+    </Grid>
+</Window>

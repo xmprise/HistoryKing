@@ -1,0 +1,108 @@
+﻿<Page
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:Microsoft_Windows_Themes="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero" x:Class="HistoryKing_client.ReadyRoom" 
+      mc:Ignorable="d"
+	Title="ReadyRoom" Width="500" Height="320" Loaded="ReadyRoom_Loaded">
+	<Page.Resources>
+		<Style x:Key="ButtonFocusVisual">
+			<Setter Property="Control.Template">
+				<Setter.Value>
+					<ControlTemplate>
+						<Rectangle Margin="2" SnapsToDevicePixels="true" Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" StrokeThickness="1" StrokeDashArray="1 2"/>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<LinearGradientBrush x:Key="ButtonNormalBackground" EndPoint="0,1" StartPoint="0,0">
+			<GradientStop Color="#F3F3F3" Offset="0"/>
+			<GradientStop Color="#EBEBEB" Offset="0.5"/>
+			<GradientStop Color="#DDDDDD" Offset="0.5"/>
+			<GradientStop Color="#CDCDCD" Offset="1"/>
+		</LinearGradientBrush>
+		<SolidColorBrush x:Key="ButtonNormalBorder" Color="#FF707070"/>
+		<Style x:Key="ButtonStyle1" TargetType="{x:Type Button}">
+			<Setter Property="FocusVisualStyle" Value="{StaticResource ButtonFocusVisual}"/>
+			<Setter Property="Background" Value="{StaticResource ButtonNormalBackground}"/>
+			<Setter Property="BorderBrush" Value="{StaticResource ButtonNormalBorder}"/>
+			<Setter Property="BorderThickness" Value="1"/>
+			<Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+			<Setter Property="HorizontalContentAlignment" Value="Center"/>
+			<Setter Property="VerticalContentAlignment" Value="Center"/>
+			<Setter Property="Padding" Value="1"/>
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid Margin="0,0,-162,-67">
+							<Image HorizontalAlignment="Stretch" Margin="4.667,5,12.333,6" Width="150" Source="준비_on.png" Height="70" Stretch="Fill"/>
+							<Image x:Name="image" HorizontalAlignment="Stretch" Margin="39.667,9.5,47.333,10.5" Width="150" Source="준비_off.png" Height="70" Visibility="Hidden" Stretch="Fill"/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsMouseOver" Value="True">
+								<Setter Property="Visibility" TargetName="image" Value="Visible"/>
+							</Trigger>
+							<Trigger Property="IsKeyboardFocused" Value="true"/>
+							<Trigger Property="ToggleButton.IsChecked" Value="true"/>
+							<Trigger Property="IsEnabled" Value="false">
+								<Setter Property="Foreground" Value="#ADADAD"/>
+							</Trigger>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Style x:Key="ButtonStyle2" TargetType="{x:Type Button}">
+			<Setter Property="FocusVisualStyle" Value="{StaticResource ButtonFocusVisual}"/>
+			<Setter Property="Background" Value="{StaticResource ButtonNormalBackground}"/>
+			<Setter Property="BorderBrush" Value="{StaticResource ButtonNormalBorder}"/>
+			<Setter Property="BorderThickness" Value="1"/>
+			<Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+			<Setter Property="HorizontalContentAlignment" Value="Center"/>
+			<Setter Property="VerticalContentAlignment" Value="Center"/>
+			<Setter Property="Padding" Value="1"/>
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid Margin="0,0,-77,-61">
+							<Image Margin="-25.167,-7.333,27.167,0" Source="시작_on.png" Width="150" Height="70" VerticalAlignment="Top" Stretch="Fill"/>
+							<Image x:Name="image" Height="70" Margin="-24.667,-6.333,26.667,0" VerticalAlignment="Top" Source="시작_off.png" Width="150" Stretch="Fill" Visibility="Hidden"/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsMouseOver" Value="True">
+								<Setter Property="Visibility" TargetName="image" Value="Visible"/>
+							</Trigger>
+							<Trigger Property="IsKeyboardFocused" Value="true"/>
+							<Trigger Property="ToggleButton.IsChecked" Value="true"/>
+							<Trigger Property="IsEnabled" Value="false">
+								<Setter Property="Foreground" Value="#ADADAD"/>
+							</Trigger>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+	</Page.Resources>
+    <Viewbox Width="500" Height="320" Margin="3,-2,-3,2">
+        <Canvas Height="320" Width="500" x:Name="ReadyRoomCanvas">
+            <Image Height="601" Canvas.Left="-224.667" Canvas.Top="-147.667" Width="943" Source="pack://siteoforigin:,,,/대기방_배경.png" Stretch="Fill"/>
+            <Viewbox Height="193" Stretch="Fill" Width="274.333" Canvas.Left="110.002" Canvas.Top="28">
+            	<Grid Height="379" Width="576">
+            		<TextBox Height="54.143" TextWrapping="Wrap" x:Name="Input" Margin="0,0,72,0" VerticalAlignment="Bottom"/>
+            		<ScrollViewer Margin="0,0,0,54.143"/>
+            		<TextBlock TextWrapping="Wrap" x:Name="Output" Margin="0,0,16,54.143" Opacity="0.5" Background="#FFDCC9C9"/>
+            		<Button Content="입 력" Height="54.143" Width="72" Click="sendClick" HorizontalAlignment="Right" VerticalAlignment="Bottom" />
+            	</Grid>
+            </Viewbox>
+            <UserControl x:Name="Me_Control" Height="170" Width="170" Canvas.Left="-139.005" Canvas.Top="42.667"></UserControl>
+            <UserControl x:Name="Enemy_Control" Height="170" Width="170" Canvas.Left="461.325" Canvas.Top="42.667"></UserControl>
+            <Button Canvas.Left="211.667" Canvas.Top="277.333" Content="Start" Height="23" x:Name="StartButton" Width="75" Click="startButtonClick" Style="{DynamicResource ButtonStyle2}" Visibility="Hidden"/>
+            <Button Canvas.Left="136.333" Canvas.Top="263" Content="Ready" Height="23" x:Name="ReadyButton" Width="75" Click="readyButtonClick" Style="{DynamicResource ButtonStyle1}" Visibility="Hidden"/>
+            <TextBlock x:Name="Me_ID" TextWrapping="Wrap" Text="" Height="25" Canvas.Left="-96" Canvas.Top="17" Width="80" TextAlignment="Center" FontSize="20" />
+            <TextBlock x:Name="Enemy_ID" TextWrapping="Wrap" Text="" Height="25" Width="80" Canvas.Left="506" Canvas.Top="17" TextAlignment="Center" FontSize="20"/>
+            <Image Canvas.Left="-135" Canvas.Top="48" Height="161" Name="imgMe" Stretch="Fill" Width="160" />
+            <Image Canvas.Left="466" Canvas.Top="48" Height="161" Name="imgEnemy" Stretch="Fill" Width="160" />
+        </Canvas>
+    </Viewbox>
+</Page>

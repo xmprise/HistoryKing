@@ -1,0 +1,889 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ECAFB996-CA75-496E-83BB-3F22D95DFCDA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HistoryKing_client</RootNamespace>
+    <AssemblyName>HistoryKing_client</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <Utf8Output>true</Utf8Output>
+    <ExpressionBlendVersion>4.0.20525.0</ExpressionBlendVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AForge, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c1db6ff4eaa06aeb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\AForge.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cbfb6e07d173c401, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\AForge.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.DirectShow, Version=2.0.0.0, Culture=neutral, PublicKeyToken=61ea4348d43881b7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\AForge.Video.DirectShow.dll</HintPath>
+    </Reference>
+    <Reference Include="AsyncSocket, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\AsyncSocket.dll</HintPath>
+    </Reference>
+    <Reference Include="AudioPlayerLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\AudioPlayerLib.dll</HintPath>
+    </Reference>
+    <Reference Include="DirectShowLib-2005, Version=2.0.0.0, Culture=neutral, PublicKeyToken=67e7b740cdfc2d3f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DirectShowLib-2005.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Expression.Drawing" />
+    <Reference Include="Microsoft.Expression.Effects" />
+    <Reference Include="Microsoft.Expression.Interactions" />
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationFramework.Aero" />
+    <Reference Include="SuperSocket.ClientEngine">
+      <HintPath>..\..\..\웹소켓 소스\WebSocket4Net(0.4).Source\bin\Net40\Debug\SuperSocket.ClientEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.Common, Version=1.4.3.0, Culture=neutral, PublicKeyToken=6c80000676988ebb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\SuperSocket.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.Facility, Version=1.4.3.0, Culture=neutral, PublicKeyToken=6c80000676988ebb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\SuperSocket.Facility.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.SocketBase, Version=1.4.3.0, Culture=neutral, PublicKeyToken=6c80000676988ebb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\SuperSocket.SocketBase.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.SocketEngine, Version=1.4.3.0, Culture=neutral, PublicKeyToken=6c80000676988ebb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\SuperSocket.SocketEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperWebSocket, Version=0.4.0.0, Culture=neutral, PublicKeyToken=7ba53b9a7cef5d1c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\SuperWebSocket.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Interactivity" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WaveResources, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\WaveResources.dll</HintPath>
+    </Reference>
+    <Reference Include="WebSocket4Net">
+      <HintPath>..\..\..\웹소켓 소스\WebSocket4Net(0.4).Source\bin\Net40\Debug\WebSocket4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="ZoomableCanvas, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ZoomableCanvas.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Camera.cs" />
+    <Compile Include="Card.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Card.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="CardControl.xaml.cs">
+      <DependentUpon>CardControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CardDeck.xaml.cs">
+      <DependentUpon>CardDeck.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Charactor_Infor.xaml.cs">
+      <DependentUpon>Charactor_Infor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CheckFace.xaml.cs">
+      <DependentUpon>CheckFace.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ChosenStageSelect.xaml.cs">
+      <DependentUpon>ChosenStageSelect.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DarkageStageSelect.xaml.cs">
+      <DependentUpon>DarkageStageSelect.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Drag.cs" />
+    <Compile Include="ExceptionError.cs" />
+    <Compile Include="GifImage.cs" />
+    <Compile Include="GoruelStageSelect.xaml.cs">
+      <DependentUpon>GoruelStageSelect.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\AndroidConnecter.cs" />
+    <Compile Include="Interfaces\Card.cs" />
+    <Compile Include="Interfaces\Player.cs" />
+    <Compile Include="Interfaces\RoomInfo.cs" />
+    <Compile Include="Interfaces\Story_divide.cs" />
+    <Compile Include="Interfaces\UserInfo.cs" />
+    <Compile Include="Menu.xaml.cs">
+      <DependentUpon>Menu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MiniGame.xaml.cs">
+      <DependentUpon>MiniGame.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MyMessageBox.xaml.cs">
+      <DependentUpon>MyMessageBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NewUser.xaml.cs">
+      <DependentUpon>NewUser.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PlayNetworkGame.xaml.cs">
+      <DependentUpon>PlayNetworkGame.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ReadyRoom.xaml.cs">
+      <DependentUpon>ReadyRoom.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SamGookStage1.xaml.cs">
+      <DependentUpon>SamGookStage1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SamGookStageSelect.xaml.cs">
+      <DependentUpon>SamGookStageSelect.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SetCardDeck.xaml.cs">
+      <DependentUpon>SetCardDeck.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StageSelect.xaml.cs">
+      <DependentUpon>StageSelect.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StoryView\Stage1\StageAnimation1-1.xaml.cs">
+      <DependentUpon>StageAnimation1-1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Stratege.xaml.cs">
+      <DependentUpon>Stratege.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Test.xaml.cs">
+      <DependentUpon>Test.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TestWindow.xaml.cs">
+      <DependentUpon>TestWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TutorialScreen.xaml.cs">
+      <DependentUpon>TutorialScreen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WaittingRoom.xaml.cs">
+      <DependentUpon>WaittingRoom.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Webcam.xaml.cs">
+      <DependentUpon>Webcam.xaml</DependentUpon>
+    </Compile>
+    <Page Include="CardControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CardDeck.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Charactor_Infor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CheckFace.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ChosenStageSelect.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CreatedCharactor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DarkageStageSelect.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GoruelStageSelect.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CreatedCharactor.xaml.cs">
+      <DependentUpon>CreatedCharactor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.xaml.cs">
+      <DependentUpon>MainMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Menu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MiniGame.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MyMessageBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="NewUser.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PlayNetworkGame.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ReadyRoom.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SamGookStage1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SamGookStageSelect.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SetCardDeck.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="StageSelect.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="StoryView\Stage1\StageAnimation1-1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Stratege.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Test.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TestWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TutorialScreen.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="WaittingRoom.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Webcam.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Member.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Member.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Interfaces\app.config" />
+    <None Include="Card.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>Card.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Member.dbml.layout">
+      <DependentUpon>Member.dbml</DependentUpon>
+    </None>
+    <None Include="Card.dbml.layout">
+      <DependentUpon>Card.dbml</DependentUpon>
+    </None>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Member.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>Member.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+    <None Include="Resource\네트워크배경.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resource\메인.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resource\메인화면.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="StoryView\Stage1\1-1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Story\Stage1\Stage1-1.text" />
+    <None Include="네트워크배경.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="대기방_배경.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="메인화면.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="스테이지1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="스테이지2-1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="스테이지3-2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="스테이지4-1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="카드덱.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile%28x86 및 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\대기방_시작모드.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\박혁거세.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\myface.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\pan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\pan2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\pan3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\pan4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\눈알.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\얼굴.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\얼굴1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\얼굴2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\입.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\코.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\눈알1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\얼굴11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\얼굴21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\얼굴3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\dialogue.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\테스트매직카드1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\테스트매직카드2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\테스트매직카드3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\테스트매직카드4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\테스트매직카드5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\stage1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\광개토대왕.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\단군.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\동명왕.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\박혁거세.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\배경1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\백결선생.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\변사또.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\변사또.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\역졸.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\온조왕.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\원효대사.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\원효대사.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\이방.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\이사부.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\이사부.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\포졸.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\해초.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\협객.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="dangoon.png" />
+    <Resource Include="dongmyung.png" />
+    <Resource Include="Forward.png" />
+    <Resource Include="Frame.jpg" />
+    <Resource Include="Image1.png" />
+    <Resource Include="password.png" />
+    <Resource Include="Resource\끝내기_off.png" />
+    <Resource Include="Resource\끝내기_on.png" />
+    <Resource Include="Resource\로그인_off.png" />
+    <Resource Include="Resource\로그인_on.png" />
+    <Resource Include="Resource\새로만들기_off.png" />
+    <Resource Include="Resource\새로만들기_on.png" />
+    <Resource Include="StoryView\Stage1\얼굴칸.png" />
+    <Resource Include="강감찬.png" />
+    <Resource Include="게임시작_off.png" />
+    <Resource Include="게임시작_on.png" />
+    <Resource Include="계백.png" />
+    <Resource Include="공격업_off.png" />
+    <Resource Include="공격업_on.png" />
+    <Resource Include="광개토대왕.png" />
+    <Resource Include="권율.png" />
+    <Resource Include="김두환.png" />
+    <Resource Include="김부식.png" />
+    <Resource Include="김유신.png" />
+    <Resource Include="김홍도.png" />
+    <Resource Include="끝내기_off.png" />
+    <Resource Include="끝내기_on.png" />
+    <Resource Include="다이얼로그.png" />
+    <Resource Include="대기방_시작모드.png" />
+    <Resource Include="뒷장.png" />
+    <Resource Include="메뉴_게임시작_off.png" />
+    <Resource Include="메뉴_게임시작_on.png" />
+    <Resource Include="메뉴_게임종료_off.png" />
+    <Resource Include="메뉴_게임종료_on.png" />
+    <Resource Include="메뉴_네트워크대전_off.png" />
+    <Resource Include="메뉴_네트워크대전_on.png" />
+    <Resource Include="메뉴_이전화면_off.png" />
+    <Resource Include="메뉴_이전화면_on.png" />
+    <Resource Include="문익점.png" />
+    <Resource Include="박문수.png" />
+    <Resource Include="박혁거세.png" />
+    <Resource Include="방정환.png" />
+    <Resource Include="백결선생.png" />
+    <Resource Include="새로만들기_off.png" />
+    <Resource Include="새로만들기_on.png" />
+    <Resource Include="서희.png" />
+    <Resource Include="손병희.png" />
+    <Resource Include="스킬버튼_off.png" />
+    <Resource Include="스킬버튼_on.png" />
+    <Resource Include="시작_off.png" />
+    <Resource Include="시작_on.png" />
+    <Resource Include="신사임당.png" />
+    <Resource Include="안중근.png" />
+    <Resource Include="안창호.png" />
+    <Resource Include="온조왕.png" />
+    <Resource Include="유관순.png" />
+    <Resource Include="윤동주.png" />
+    <Resource Include="의자왕.png" />
+    <Resource Include="의천.png" />
+    <Resource Include="이사부.png" />
+    <Resource Include="이순신.png" />
+    <Resource Include="이이.png" />
+    <Resource Include="이종무.png" />
+    <Resource Include="이중섭.png" />
+    <Resource Include="임꺽정.png" />
+    <Resource Include="장영실.png" />
+    <Resource Include="정몽주.png" />
+    <Resource Include="정조.png" />
+    <Resource Include="정중부.png" />
+    <Resource Include="준비_off.png" />
+    <Resource Include="준비_on.png" />
+    <Resource Include="지눌.png" />
+    <Resource Include="지석영.png" />
+    <Resource Include="체력업_off.png" />
+    <Resource Include="체력업_on.png" />
+    <Resource Include="최무선.png" />
+    <Resource Include="카드덱_다음.png" />
+    <Resource Include="카드덱_다음_off.png" />
+    <Resource Include="카드덱_다음_믿.png" />
+    <Resource Include="카드덱_다음_믿_off.png" />
+    <Resource Include="카드덱_이전.png" />
+    <Resource Include="카드덱_이전_off.png" />
+    <Resource Include="카드덱_이전_믿.png" />
+    <Resource Include="카드덱_이전_믿_off.png" />
+    <Resource Include="카드덱버튼_off.png" />
+    <Resource Include="카드덱버튼_on.png" />
+    <Resource Include="카메라_off.png" />
+    <Resource Include="카메라_on.png" />
+    <Resource Include="캐릭터생성.png" />
+    <Resource Include="턴업_off.png" />
+    <Resource Include="턴업_on.png" />
+    <Resource Include="턴종료_off.png" />
+    <Resource Include="턴종료_on.png" />
+    <Resource Include="폴더_off.png" />
+    <Resource Include="폴더_on.png" />
+    <Resource Include="회원가입배경.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\Frame - 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\Frame.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\Frame.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\Frame1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\historyking.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\Horizontal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\Image1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\Image2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\Line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\Vertical.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\눈알.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\박혁거세.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\배경1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\얼굴.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\얼굴1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\얼굴2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\입.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\조성현.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\코.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\main1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\main2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\main3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Story\Stage1\Stage1-1.txt" />
+    <Resource Include="Story\Stage1\Stage1-10.txt" />
+    <Resource Include="Story\Stage1\Stage1-2.txt" />
+    <Resource Include="Story\Stage1\Stage1-3.txt" />
+    <Resource Include="Story\Stage1\Stage1-4.txt" />
+    <Resource Include="Story\Stage1\Stage1-5.txt" />
+    <Resource Include="Story\Stage1\Stage1-6.txt" />
+    <Resource Include="Story\Stage1\Stage1-7.txt" />
+    <Resource Include="Story\Stage1\Stage1-8.txt" />
+    <Resource Include="Story\Stage1\Stage1-9.txt" />
+    <Resource Include="Story\Stage2\Stage2-1.txt" />
+    <Resource Include="Story\Stage2\Stage2-10.txt" />
+    <Resource Include="Story\Stage2\Stage2-2.txt" />
+    <Resource Include="Story\Stage2\Stage2-3.txt" />
+    <Resource Include="Story\Stage2\Stage2-4.txt" />
+    <Resource Include="Story\Stage2\Stage2-5.txt" />
+    <Resource Include="Story\Stage2\Stage2-6.txt" />
+    <Resource Include="Story\Stage2\Stage2-7.txt" />
+    <Resource Include="Story\Stage2\Stage2-8.txt" />
+    <Resource Include="Story\Stage2\Stage2-9.txt" />
+    <Resource Include="Story\Stage3\Stage3-1.txt" />
+    <Resource Include="Story\Stage3\Stage3-10.txt" />
+    <Resource Include="Story\Stage3\Stage3-2.txt" />
+    <Resource Include="Story\Stage3\Stage3-3.txt" />
+    <Resource Include="Story\Stage3\Stage3-4.txt" />
+    <Resource Include="Story\Stage3\Stage3-5.txt" />
+    <Resource Include="Story\Stage3\Stage3-6.txt" />
+    <Resource Include="Story\Stage3\Stage3-7.txt" />
+    <Resource Include="Story\Stage3\Stage3-8.txt" />
+    <Resource Include="Story\Stage3\Stage3-9.txt" />
+    <Resource Include="Story\Stage4\Stage4-1.txt" />
+    <Resource Include="Story\Stage4\Stage4-10.txt" />
+    <Resource Include="Story\Stage4\Stage4-2.txt" />
+    <Resource Include="Story\Stage4\Stage4-3.txt" />
+    <Resource Include="Story\Stage4\Stage4-4.txt" />
+    <Resource Include="Story\Stage4\Stage4-5.txt" />
+    <Resource Include="Story\Stage4\Stage4-6.txt" />
+    <Resource Include="Story\Stage4\Stage4-7.txt" />
+    <Resource Include="Story\Stage4\Stage4-8.txt" />
+    <Resource Include="Story\Stage4\Stage4-9.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="DD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="fire.png" />
+    <Resource Include="미니게임.png" />
+    <Resource Include="배경.png" />
+    <Resource Include="버튼_마우스오버전.png" />
+    <Resource Include="버튼_마우스오버후.png" />
+    <Resource Include="테스트.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MOZUOTO.WAV" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NINDAMAG.WAV" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NINJADIE.WAV" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NINLAUGH.WAV" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NINSWORD.WAV" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CHIMES.WAV" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CHIMEUP.WAV" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CLOCK.WAV" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\0.png" />
+    <Resource Include="bin\Debug\1.png" />
+    <Resource Include="bin\Debug\2.png" />
+    <Resource Include="bin\Debug\3.png" />
+    <Resource Include="bin\Debug\4.png" />
+    <Resource Include="bin\Debug\5.png" />
+    <Resource Include="bin\Debug\6.png" />
+    <Resource Include="bin\Debug\7.png" />
+    <Resource Include="bin\Debug\8.png" />
+    <Resource Include="bin\Debug\9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="attack.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\뒷장.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\대기방_준비모드.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\대기방_방.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Fonts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="attackSkill.gif" />
+    <Resource Include="explosion.gif" />
+    <Resource Include="healthSkill.gif" />
+    <Resource Include="turnSkill.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="boom.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Expression\Blend\.NETFramework\v4.0\Microsoft.Expression.Blend.WPF.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

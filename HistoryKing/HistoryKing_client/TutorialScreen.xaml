@@ -1,0 +1,159 @@
+﻿<Window x:Class="HistoryKing_client.TutorialScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:uc1="clr-namespace:HistoryKing_client"
+        Title="TutorialScreen" Height="350" Width="525">
+    <Window.Resources>
+
+        <Storyboard x:Key="Storyboard">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="image2">
+                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Hidden}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.5" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:1" Value="{x:Static Visibility.Hidden}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="image3">
+                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Hidden}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:1" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:1.5" Value="{x:Static Visibility.Hidden}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="image4">
+                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Hidden}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:1.5" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:2" Value="{x:Static Visibility.Hidden}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="image5">
+                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Hidden}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:2" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:2.5" Value="{x:Static Visibility.Hidden}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="image6">
+                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Hidden}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:2.5" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:3" Value="{x:Static Visibility.Hidden}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="image7">
+                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Hidden}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:3" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:3.5" Value="{x:Static Visibility.Hidden}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="image8">
+                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Hidden}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:3.5" Value="{x:Static Visibility.Visible}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="image1">
+                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.5" Value="{x:Static Visibility.Hidden}"/>
+            </ObjectAnimationUsingKeyFrames>
+        </Storyboard>
+
+        <Storyboard x:Key="cyclone" RepeatBehavior="Forever">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="image9">
+                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1" Value="{x:Static Visibility.Hidden}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="image10">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.3" Value="{x:Static Visibility.Hidden}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="image11">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.3" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.4" Value="{x:Static Visibility.Hidden}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="image12">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.4" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.5" Value="{x:Static Visibility.Hidden}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="image13">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.5" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.6" Value="{x:Static Visibility.Hidden}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="image14">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.6" Value="{x:Static Visibility.Visible}"/>
+            </ObjectAnimationUsingKeyFrames>
+        </Storyboard>
+        
+        <Storyboard x:Key="personmove">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="image8">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="6.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="17.035"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="19.535"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="25.535"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="25.66"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="27.035"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="30.91"/>
+            </DoubleAnimationUsingKeyFrames>
+
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="image8">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="3.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0.38"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="3.38"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="-1.62"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="-0.12"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="-0.12"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="-0.87"/>
+            </DoubleAnimationUsingKeyFrames>
+            
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="image8">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-12.66"/>
+            </DoubleAnimationUsingKeyFrames>
+            
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="image8">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.832"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0.649"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0.589"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.589"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0.401"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="image8">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.87"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0.678"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0.55"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.55"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0.447"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </Window.Resources>
+    <Window.Triggers>
+
+    </Window.Triggers>
+    <Grid>
+        <Grid HorizontalAlignment="Left" Height="44" Margin="167,0,0,142" VerticalAlignment="Bottom" Width="160">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="62.08"/>
+                <ColumnDefinition Width="43"/>
+            </Grid.ColumnDefinitions>
+            <Image Height="44" Margin="0,0,60,0" Name="image1" Source="/HistoryKing_client;component/bin/Debug/bin/Debug/user_move_2_0.png" Stretch="Fill" VerticalAlignment="Top" />
+            <Image Height="44" Margin="18,0,42,0" x:Name="image2" Source="/HistoryKing_client;component/bin/Debug/bin/Debug/user_move_2_1.png" Stretch="Fill" VerticalAlignment="Top" />
+            <Image Height="44" Margin="35,0,25,0" x:Name="image3" Source="/HistoryKing_client;component/bin/Debug/bin/Debug/user_move_2_2.png" Stretch="Fill" VerticalAlignment="Top" />
+            <Image Height="44" Margin="0,0,7,0" x:Name="image4" Source="/HistoryKing_client;component/bin/Debug/bin/Debug/user_move_2_3.png" Stretch="Fill" VerticalAlignment="Top" HorizontalAlignment="Right" Width="38" />
+            <Image Height="44" Margin="0,0,-10,0" x:Name="image5" Source="/HistoryKing_client;component/bin/Debug/bin/Debug/user_move_2_4.png" Stretch="Fill" VerticalAlignment="Top" HorizontalAlignment="Right" Width="38" />
+            <Image Height="44" HorizontalAlignment="Left" Margin="-11,0,0,0" x:Name="image6" Source="/HistoryKing_client;component/bin/Debug/bin/Debug/user_move_2_5.png" Stretch="Fill" VerticalAlignment="Top" Width="38" Grid.Column="1" />
+            <Image Height="44" Margin="7,0,17,0" x:Name="image7" Source="/HistoryKing_client;component/bin/Debug/bin/Debug/user_move_2_6.png" Stretch="Fill" VerticalAlignment="Top" Grid.Column="1" />
+            <Image Height="44" x:Name="image8" Source="/HistoryKing_client;component/bin/Debug/bin/Debug/user_move_2_7.png" Stretch="Fill" VerticalAlignment="Top" Grid.Column="1" Margin="24,0,0,0" RenderTransformOrigin="0.5,0.5" >
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+         
+        </Grid>
+        <TextBox Height="104" HorizontalAlignment="Left" Margin="20,194,0,0" Name="textBox1" VerticalAlignment="Top" Width="463" KeyDown="textbox_event" />
+        <Grid HorizontalAlignment="Right" Margin="0,119,84,124" Width="70">
+        	<Grid Margin="0,-1,0,0">
+        		<Grid>
+        			<Image Height="69" HorizontalAlignment="Left" x:Name="image14" Stretch="Fill" VerticalAlignment="Top" Width="70" Source="/HistoryKing_client;component/bin/Debug/bin/Debug/포맷변환_cyclone_f05.jpg" Margin="0,1,0,0" />
+        			<Image Height="69" HorizontalAlignment="Left" x:Name="image13" Stretch="Fill" VerticalAlignment="Top" Width="70" Source="/HistoryKing_client;component/bin/Debug/bin/Debug/포맷변환_cyclone_f04.jpg" />
+        			<Image Height="69" HorizontalAlignment="Left" x:Name="image12" Stretch="Fill" VerticalAlignment="Top" Width="70" Source="/HistoryKing_client;component/bin/Debug/bin/Debug/포맷변환_cyclone_f03.jpg" Margin="0,1,0,0" />
+        			<Image Height="69" HorizontalAlignment="Left" x:Name="image11" Stretch="Fill" VerticalAlignment="Top" Width="70" Source="/HistoryKing_client;component/bin/Debug/bin/Debug/포맷변환_cyclone_f02.jpg" Margin="0,1,0,0" />
+        			<Image Height="69" HorizontalAlignment="Left" x:Name="image10" Stretch="Fill" VerticalAlignment="Top" Width="70" Source="/HistoryKing_client;component/bin/Debug/bin/Debug/포맷변환_cyclone_f01.jpg" Margin="0,1,0,0" />
+        			<Image Height="69" HorizontalAlignment="Left" x:Name="image9" Stretch="Fill" VerticalAlignment="Top" Width="70" Source="/HistoryKing_client;component/bin/Debug/bin/Debug/포맷변환_cyclone_f00.jpg" Margin="0,1,0,0" />
+        		</Grid>
+        	</Grid>
+        </Grid>
+    </Grid>
+</Window>

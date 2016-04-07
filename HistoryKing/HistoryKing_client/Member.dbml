@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Historyking" Class="MemberDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=210.118.69.65,8000;Initial Catalog=Historyking;Persist Security Info=True;User ID=jung" SettingsObjectName="HistoryKing_client.Properties.Settings" SettingsPropertyName="HistorykingConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="Mem.Member" Member="Member">
+    <Type Name="Member">
+      <Column Name="MemberID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MemberName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="MemberPassword" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="MemberPassword2" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Member_MemberCharacter" Member="MemberCharacter" ThisKey="MemberName" OtherKey="MemberName" Type="MemberCharacter" />
+      <Association Name="Member_MemberGameInformation" Member="MemberGameInformation" ThisKey="MemberName" OtherKey="MemberName" Type="MemberGameInformation" />
+    </Type>
+  </Table>
+  <Table Name="Mem.MemberCharacter" Member="MemberCharacter">
+    <Type Name="MemberCharacter">
+      <Column Name="CharacterID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MemberName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CharacterImage" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="Member_MemberCharacter" Member="Member" ThisKey="MemberName" OtherKey="MemberName" Type="Member" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="Mem.MemberGameInformation" Member="MemberGameInformation">
+    <Type Name="MemberGameInformation">
+      <Column Name="MemberGameInformationID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MemberName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="GameStage" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GamePhase" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Member_MemberGameInformation" Member="Member" ThisKey="MemberName" OtherKey="MemberName" Type="Member" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

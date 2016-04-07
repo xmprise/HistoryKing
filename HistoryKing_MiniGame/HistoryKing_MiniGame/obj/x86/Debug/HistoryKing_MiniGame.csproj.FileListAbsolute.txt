@@ -1,0 +1,84 @@
+C:\Users\Jung\AppData\Local\Temporary Projects\HistoryKing_MiniGame\bin\Debug\HistoryKing_MiniGame.exe
+C:\Users\Jung\AppData\Local\Temporary Projects\HistoryKing_MiniGame\bin\Debug\HistoryKing_MiniGame.pdb
+C:\Users\Jung\AppData\Local\Temporary Projects\HistoryKing_MiniGame\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Jung\AppData\Local\Temporary Projects\HistoryKing_MiniGame\obj\x86\Debug\MainWindow.baml
+C:\Users\Jung\AppData\Local\Temporary Projects\HistoryKing_MiniGame\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Jung\AppData\Local\Temporary Projects\HistoryKing_MiniGame\obj\x86\Debug\App.g.cs
+C:\Users\Jung\AppData\Local\Temporary Projects\HistoryKing_MiniGame\obj\x86\Debug\HistoryKing_MiniGame_MarkupCompile.cache
+C:\Users\Jung\AppData\Local\Temporary Projects\HistoryKing_MiniGame\obj\x86\Debug\HistoryKing_MiniGame.g.resources
+C:\Users\Jung\AppData\Local\Temporary Projects\HistoryKing_MiniGame\obj\x86\Debug\HistoryKing_MiniGame.Properties.Resources.resources
+C:\Users\Jung\AppData\Local\Temporary Projects\HistoryKing_MiniGame\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Jung\AppData\Local\Temporary Projects\HistoryKing_MiniGame\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Jung\AppData\Local\Temporary Projects\HistoryKing_MiniGame\obj\x86\Debug\HistoryKing_MiniGame.exe
+C:\Users\Jung\AppData\Local\Temporary Projects\HistoryKing_MiniGame\obj\x86\Debug\HistoryKing_MiniGame.pdb
+C:\Users\Jung\documents\visual studio 2010\Projects\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\HistoryKing_MiniGame.exe
+C:\Users\Jung\documents\visual studio 2010\Projects\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\HistoryKing_MiniGame.pdb
+C:\Users\Jung\documents\visual studio 2010\Projects\HistoryKing_MiniGame\HistoryKing_MiniGame\bin\Debug\HistoryKing_MiniGame.exe
+C:\Users\Jung\documents\visual studio 2010\Projects\HistoryKing_MiniGame\HistoryKing_MiniGame\bin\Debug\HistoryKing_MiniGame.pdb
+C:\Users\Jung\documents\visual studio 2010\Projects\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Jung\documents\visual studio 2010\Projects\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\MainWindow.baml
+C:\Users\Jung\documents\visual studio 2010\Projects\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Jung\documents\visual studio 2010\Projects\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\App.g.cs
+C:\Users\Jung\documents\visual studio 2010\Projects\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\HistoryKing_MiniGame_MarkupCompile.cache
+C:\Users\Jung\documents\visual studio 2010\Projects\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\HistoryKing_MiniGame.g.resources
+C:\Users\Jung\documents\visual studio 2010\Projects\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\HistoryKing_MiniGame.Properties.Resources.resources
+C:\Users\Jung\documents\visual studio 2010\Projects\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Jung\documents\visual studio 2010\Projects\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\GenerateResource.write.1.tlog
+G:\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\HistoryKing_MiniGame.exe
+G:\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\HistoryKing_MiniGame.pdb
+G:\HistoryKing_MiniGame\HistoryKing_MiniGame\bin\Debug\HistoryKing_MiniGame.exe
+G:\HistoryKing_MiniGame\HistoryKing_MiniGame\bin\Debug\HistoryKing_MiniGame.pdb
+G:\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\MainWindow.baml
+G:\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\MainWindow.g.cs
+G:\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\App.g.cs
+G:\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\HistoryKing_MiniGame_MarkupCompile.cache
+G:\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\HistoryKing_MiniGame.g.resources
+G:\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\HistoryKing_MiniGame.Properties.Resources.resources
+G:\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\techwin\Desktop\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\HistoryKing_MiniGame.exe
+C:\Users\techwin\Desktop\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\HistoryKing_MiniGame.pdb
+C:\Users\techwin\Desktop\HistoryKing_MiniGame\HistoryKing_MiniGame\bin\Debug\HistoryKing_MiniGame.exe
+C:\Users\techwin\Desktop\HistoryKing_MiniGame\HistoryKing_MiniGame\bin\Debug\HistoryKing_MiniGame.pdb
+C:\Users\techwin\Desktop\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\techwin\Desktop\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\MainWindow.baml
+C:\Users\techwin\Desktop\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\MainWindow.g.cs
+C:\Users\techwin\Desktop\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\App.g.cs
+C:\Users\techwin\Desktop\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\HistoryKing_MiniGame_MarkupCompile.cache
+C:\Users\techwin\Desktop\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\HistoryKing_MiniGame.g.resources
+C:\Users\techwin\Desktop\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\HistoryKing_MiniGame.Properties.Resources.resources
+C:\Users\techwin\Desktop\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\techwin\Desktop\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\techwin\Desktop\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\GenerateResource.read.0.tlog
+C:\Users\techwin\Desktop\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\GenerateResource.write.0.tlog
+C:\Users\Jung\Documents\네이트온 받은 파일\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\HistoryKing_MiniGame.exe
+C:\Users\Jung\Documents\네이트온 받은 파일\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\HistoryKing_MiniGame.pdb
+C:\Users\Jung\Documents\네이트온 받은 파일\HistoryKing_MiniGame\HistoryKing_MiniGame\bin\Debug\HistoryKing_MiniGame.exe
+C:\Users\Jung\Documents\네이트온 받은 파일\HistoryKing_MiniGame\HistoryKing_MiniGame\bin\Debug\HistoryKing_MiniGame.pdb
+C:\Users\Jung\Documents\네이트온 받은 파일\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Jung\Documents\네이트온 받은 파일\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\MainWindow.baml
+C:\Users\Jung\Documents\네이트온 받은 파일\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Jung\Documents\네이트온 받은 파일\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\App.g.cs
+C:\Users\Jung\Documents\네이트온 받은 파일\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\HistoryKing_MiniGame_MarkupCompile.cache
+C:\Users\Jung\Documents\네이트온 받은 파일\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\HistoryKing_MiniGame.g.resources
+C:\Users\Jung\Documents\네이트온 받은 파일\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\HistoryKing_MiniGame.Properties.Resources.resources
+C:\Users\Jung\Documents\네이트온 받은 파일\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\GenerateResource.read.0.tlog
+C:\Users\Jung\Documents\네이트온 받은 파일\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Jung\Documents\네이트온 받은 파일\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\GenerateResource.write.0.tlog
+C:\Users\Jung\Documents\네이트온 받은 파일\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Jung\Desktop\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\HistoryKing_MiniGame.exe
+C:\Users\Jung\Desktop\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\HistoryKing_MiniGame.pdb
+C:\Users\Jung\Desktop\HistoryKing_MiniGame\HistoryKing_MiniGame\bin\Debug\HistoryKing_MiniGame.exe
+C:\Users\Jung\Desktop\HistoryKing_MiniGame\HistoryKing_MiniGame\bin\Debug\HistoryKing_MiniGame.pdb
+C:\Users\Jung\Desktop\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Jung\Desktop\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\MainWindow.baml
+C:\Users\Jung\Desktop\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Jung\Desktop\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\App.g.cs
+C:\Users\Jung\Desktop\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\HistoryKing_MiniGame_MarkupCompile.cache
+C:\Users\Jung\Desktop\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\HistoryKing_MiniGame.g.resources
+C:\Users\Jung\Desktop\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\HistoryKing_MiniGame.Properties.Resources.resources
+C:\Users\Jung\Desktop\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\GenerateResource.read.0.tlog
+C:\Users\Jung\Desktop\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Jung\Desktop\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\GenerateResource.write.0.tlog
+C:\Users\Jung\Desktop\HistoryKing_MiniGame\HistoryKing_MiniGame\obj\x86\Debug\GenerateResource.write.1.tlog

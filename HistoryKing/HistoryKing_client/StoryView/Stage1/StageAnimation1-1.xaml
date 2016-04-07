@@ -1,0 +1,22 @@
+﻿<Page x:Class="HistoryKing_client.StageAnimation1_1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="401" d:DesignWidth="799"
+	Title="StageAnimation1_1" KeyDown="stage1_down">
+    <Viewbox Height="396" Name="viewbox1" Width="794">
+        <Canvas Height="384" Name="canvas1" Width="765">
+            <Image Height="575" Canvas.Left="-54.348" Canvas.Top="-90.06" Width="902" Source="pack://siteoforigin:,,,/StoryView/Stage1/1-1.png" Stretch="Fill"/>
+            <RichTextBox Canvas.Left="18" Canvas.Top="228" Height="141" x:Name="richTextBox1" Width="728" Visibility="Hidden" />
+            <TextBox Canvas.Left="202" Canvas.Top="231" Height="136" x:Name="textBox1" Width="543.273" TextChanged="textBox1_TextChanged" IsEnabled="True" IsReadOnly="True" Opacity="0.5" FontSize="16" FontFamily="HY깊은샘물M" FontWeight="Bold" />
+            <RichTextBox Canvas.Left="18" Canvas.Top="23.273" Height="141" x:Name="richTextBox2" Width="728" Visibility="Hidden" />
+            <TextBox Canvas.Left="204.606" Canvas.Top="26.273" Height="136" x:Name="textBox2" Width="539.394" TextChanged="textBox2_TextChanged" Loaded="stage1_Load" IsReadOnly="True" IsEnabled="True" FontFamily="HY깊은샘물M" Opacity="0.5" FontSize="16" FontWeight="Bold" />
+            <Image x:Name="얼굴칸" Height="158.061" Canvas.Left="11.591" Canvas.Top="15.03" Width="183.273" Source="얼굴칸.png"/>
+            <Image Canvas.Left="18" Canvas.Top="26.273" Height="136" x:Name="image2" Stretch="Fill" Width="170" />
+            <Image x:Name="얼굴칸_Copy" Height="158.061" Canvas.Left="11.591" Canvas.Top="219.03" Width="183.273" Source="얼굴칸.png"/>
+            <Image Canvas.Left="18" Canvas.Top="231" Height="138" x:Name="image1" Stretch="Fill" Width="170" />
+        </Canvas>
+    </Viewbox>
+</Page>
